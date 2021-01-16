@@ -32,7 +32,7 @@ function onSubmit(e) {
     if(user == pc){
         alert ("Empate")
     }
-    else if(user == "piedra" && pc == "tijera"){
+    else if(user == "piedra" && pc == "papel"){
         alert ("Perdiste")
     }
     else if(user == "tijera" && pc == "piedra"){
